@@ -1,3 +1,13 @@
 {
-    "include": ["src/**/*"]
+	"compilerOptions": {
+		"allowJs": true,
+        // error checking
+		"checkJs": true,
+		// which folder the compiled file will show up in
+		"outDir": "build",
+		// the version of JS
+		"target": "ES6"
+	},
+	// includes everything in the src
+	"include": ["src/**/*"]
 }
