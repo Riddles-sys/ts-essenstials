@@ -1,6 +1,5 @@
-// colon implies types
-let x;
-let y;
-let z;
-let a;
-let b;
+let primaryContact = {
+    id: 0,
+    name: 'James Smith',
+    postalCode: '',
+};
